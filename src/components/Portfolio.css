@@ -1,0 +1,222 @@
+a{
+  text-decoration: none;
+}
+
+.container-main {
+  display: flex;
+  position: relative;
+  background-color: #eee;
+}
+
+.container-port {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title-port {
+  position: relative;
+  top: 20px;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #ef6d58;
+  margin-bottom: 10px;
+}
+
+.title-main {
+  margin-top: 30px;
+  font-size: 50px;
+  margin-bottom: 10px;
+  color: #391400;
+}
+
+.card-search {
+  display: flex;
+  flex-direction: column;
+  position: static;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  background-color: #fff;
+  background-position: center;
+  margin-left: 20px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  color: #000;
+  cursor: pointer;
+  box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.151);
+}
+
+.card-search:hover {
+  transition: all 0.5s ease;
+  transform: scale(1.1);
+  box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.418);
+}
+
+.card-search:not(hover) {
+  transition: all 0.5s ease;
+}
+
+.card-search img {
+  width: 200px;
+}
+
+.card-cart {
+  display: flex;
+  flex-direction: column;
+  position: static;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  background-color: #fff;
+  background-position: center;
+  margin-left: 20px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  color: #000;
+  cursor: pointer;
+  box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.151);
+}
+
+.card-cart:hover {
+  transition: all 0.5s ease;
+  transform: scale(1.1);
+  box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.418);
+}
+
+.card-cart:not(hover) {
+  transition: all 0.5s ease;
+}
+
+.card-cart img {
+  width: 200px;
+}
+
+.card-bitcoin {
+  display: flex;
+  flex-direction: column;
+  position: static;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  background-color: #fff;
+  background-position: center;
+  margin-left: 20px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  color: #000;
+  cursor: pointer;
+  box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.151);
+}
+
+.card-bitcoin:hover {
+  transition: all 0.5s ease;
+  transform: scale(1.1);
+  box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.418);
+}
+
+.card-bitcoin:not(hover) {
+  transition: all 0.5s ease;
+}
+
+.card-bitcoin img {
+  width: 200px;
+}
+
+.card-interes {
+  display: flex;
+  flex-direction: column;
+  position: static;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  background-color: #fff;
+  background-position: center;
+  margin-left: 20px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  color: #000;
+  cursor: pointer;
+  box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.151);
+}
+
+.card-interes:hover {
+  transition: all 0.5s ease;
+  transform: scale(1.1);
+  box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.418);
+}
+
+.card-interes:not(hover) {
+  transition: all 0.5s ease;
+}
+
+.card-interes img {
+  width: 200px;
+}
+
+.card-poke {
+  display: flex;
+  flex-direction: column;
+  position: static;
+  align-items: center;
+  justify-content: center;
+  width: 700px;
+  height: 300px;
+  background-color: #fff;
+  background-position: center;
+  margin-left: 20px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  color: #000;
+  cursor: pointer;
+  box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.151);
+}
+
+.card-poke:hover {
+  transition: all 0.5s ease;
+  transform: scale(1.1);
+  box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.418);
+}
+
+.card-poke:not(hover) {
+  transition: all 0.5s ease;
+}
+
+.card-poke img {
+  width: 200px;
+}
+
+.center-sub {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: -30px;
+  max-width: 200px;
+}
+
+.subtitulo {
+  width: 70px;
+  height: 20px;
+  background-color: #000;
+  color: white;
+  border-radius: 50px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -10px;
+}
+
+.titulos {
+  margin-bottom: 10px;
+
+}

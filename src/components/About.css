@@ -1,0 +1,152 @@
+.container-about {
+  display: flex;
+  position: relative;
+  margin-top: 200px;
+  background-color: #fdf0e9;
+}
+
+.center-about {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+}
+
+.title-about {
+  margin-top: 30px;
+  font-size: 50px;
+  margin-bottom: 10px;
+  color: #391400;
+}
+
+.parrafo-about {
+  font-size: 18px;
+  max-width: 500px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(57, 20, 0, 0.64);
+}
+
+.title-about2 {
+  position: relative;
+  top: 10px;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #ef6d58;
+  margin-bottom: 10px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+
+  padding: 0px;
+
+  position: static;
+  width: 1110px;
+  height: 200px;
+  left: 0px;
+  top: 0px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 44px 0px;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  position: static;
+  align-items: center;
+  justify-content: center;
+  width: 586px;
+  height: 176px;
+  background: transparent;
+  margin-left: 20px;
+  border: 1px solid #f3d1bf;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+.card-2 {
+  display: flex;
+  flex-direction: column;
+  position: static;
+  align-items: center;
+  justify-content: center;
+  width: 586px;
+  height: 176px;
+  background: transparent;
+  margin-left: 20px;
+  border: 1px solid #f3d1bf;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+.circle {
+  position: relative;
+  right: 150px;
+  border-radius: 50%;
+  width: 112px;
+  height: 112px;
+  background-color: #ef6c57;
+}
+
+.center-item {
+  font-size: 50px;
+  position: relative;
+  top: 30px;
+  left: 30px;
+}
+
+.card h2 {
+  position: absolute;
+  margin-bottom: -10px;
+  top: 370px;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+  color: #391400;
+  left: 420px;
+}
+
+.card p {
+  position: absolute;
+  top: 430px;
+  left: 420px;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  color: #391400;
+}
+
+.card-2 h2 {
+  position: absolute;
+  margin-bottom: -10px;
+  top: 370px;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+  color: #391400;
+  left: 975px;
+}
+
+.card-2 p {
+  position: absolute;
+  top: 430px;
+  left: 975px;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  color: #391400;
+}
