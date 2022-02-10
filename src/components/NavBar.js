@@ -8,7 +8,6 @@ import { Container, Button } from "@mui/material";
 import Imagen from "../images/Web Developer_Monochromatic.svg";
 import Imagen2 from "../images/Web Developer_Two Color.svg";
 import Portfolio from "./Portfolio";
-import { Suspense, lazy } from "react";
 import { styled } from "@mui/material/styles";
 import { orange } from "@mui/material/colors";
 
@@ -75,9 +74,7 @@ const NavBar = () => {
       </div>
 
       <section id="about">
-        <Suspense fallback={<div>Cargando...</div>}>
           <AboutMe />
-        </Suspense>
       </section>
 
       <section id="skills">
