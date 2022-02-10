@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio-react/static/css/main.3ec811d0.css",
+    "main.js": "/portfolio-react/static/js/main.8b6e2b68.js",
+    "static/js/787.aeca62f9.chunk.js": "/portfolio-react/static/js/787.aeca62f9.chunk.js",
+    "static/media/bitcoin.png": "/portfolio-react/static/media/bitcoin.896364271f875aa730d7.png",
+    "static/media/poke.png": "/portfolio-react/static/media/poke.34834e4e78ea31047d39.png",
+    "static/media/cartimage.png": "/portfolio-react/static/media/cartimage.f4aa00e704cd63578cdb.png",
+    "static/media/interes.png": "/portfolio-react/static/media/interes.31969b2305e61acf8582.png",
+    "static/media/image.png": "/portfolio-react/static/media/image.c1dabd014e8020230a3d.png",
+    "static/media/Web Developer_Monochromatic.svg": "/portfolio-react/static/media/Web Developer_Monochromatic.5b40da81d5a43773e666ac5115ce0b21.svg",
+    "static/media/Web Developer_Two Color.svg": "/portfolio-react/static/media/Web Developer_Two Color.2a718f328db1e545dfea765677f998a3.svg",
+    "index.html": "/portfolio-react/index.html",
+    "main.3ec811d0.css.map": "/portfolio-react/static/css/main.3ec811d0.css.map",
+    "main.8b6e2b68.js.map": "/portfolio-react/static/js/main.8b6e2b68.js.map",
+    "787.aeca62f9.chunk.js.map": "/portfolio-react/static/js/787.aeca62f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ec811d0.css",
+    "static/js/main.8b6e2b68.js"
+  ]
+}
