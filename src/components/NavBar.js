@@ -11,8 +11,6 @@ import Portfolio from "./Portfolio";
 import { styled } from "@mui/material/styles";
 import { orange } from "@mui/material/colors";
 
-const AboutMe = lazy(() => import ('./About'))
-
 const ColorButton = styled(Button)(({ theme }) => ({
   backgroundColor: orange[700],
   '&:hover': {
@@ -74,7 +72,7 @@ const NavBar = () => {
       </div>
 
       <section id="about">
-          <AboutMe />
+          <About />
       </section>
 
       <section id="skills">

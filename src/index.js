@@ -10,7 +10,7 @@ const rootElement = document.getElementById("root");
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<App />} />
+      <Route path="/portfolio-react" element={<App />} />
     </Routes>
   </BrowserRouter>,
   rootElement
