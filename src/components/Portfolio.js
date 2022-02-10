@@ -19,7 +19,7 @@ const Portfolio = () => {
           <Box marginLeft={25} marginTop={10} marginBottom={10}>
             <Grid container rowSpacing={3}>
               <Grid item xs={5}>
-                <a>
+                <a href="https://juanib12.github.io/searchimages/" target="_blank">
                   <div className="card-search">
                     <img src={Search} />
                     <div className="center-sub">
