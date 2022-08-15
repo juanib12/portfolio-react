@@ -4,13 +4,14 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "./assets/main.css";
 
 const rootElement = document.getElementById("root");
 
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
-      <Route path="/portfolio-react" element={<App />} />
+      <Route path="/" element={<App />} />
     </Routes>
   </BrowserRouter>,
   rootElement

@@ -1,11 +1,22 @@
-import NavBar from "./components/NavBar"
+import NavBar from "./components/NavBar";
+import Home from "./components/Home";
+import Footer from "./components/Footer";
+import Contact from "./components/Contact";
+import Projects from "./components/Projects";
+import About from "./components/About";
 
 const App = () => {
   return (
     <div>
       <NavBar />
-    </div>
-  )
-}
+      <Home />
+      <About />
+      <Projects />
+      <Contact />
+      <Footer />
 
-export default App
+    </div>
+  );
+};
+
+export default App;

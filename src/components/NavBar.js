@@ -1,92 +1,97 @@
-import { Link } from "react-router-dom";
-import "./NavBar.css";
-import { NavbarBrand } from "reactstrap";
-import About from "./About";
-import Skills from "./Skills";
-import Contact from "./Contact";
-import { Container, Button } from "@mui/material";
-import Imagen from "../images/Web Developer_Monochromatic.svg";
-import Imagen2 from "../images/Web Developer_Two Color.svg";
-import Portfolio from "./Portfolio";
-import { styled } from "@mui/material/styles";
-import { orange } from "@mui/material/colors";
-
-const ColorButton = styled(Button)(({ theme }) => ({
-  backgroundColor: orange[700],
-  '&:hover': {
-    backgroundColor: orange[500],
-  },
-}));
+import { useState } from "react";
 
 const NavBar = () => {
   return (
-    <div>
-      <div className="container" id="home">
-        <NavbarBrand className="logo" tag={Link} to="/">
-          Juan Bianco
-        </NavbarBrand>
-        <nav className="navbar">
-          <div className="center">
-            <a className="navLinks" href="#home">
-              Inicio
-            </a>
-            <a className="navLinks" href="#about">
-              Sobre Mí
-            </a>
-            <a className="navLinks" href="#skills">
-              Habilidades
-            </a>
-            <a className="navLinks" href="#portfolio">
-              Portfolio
-            </a>
-            <a className="navButton" href="#contact">
-              CONTACT
-            </a>
-          </div>
-        </nav>
+    <nav className="sm:px-28 py-2.5 top-0 border-[#404040] border-b-[1px] relative">
+      <div className="container flex flex-wrap justify-between items-center mx-auto">
+        <a href="#" className="flex items-center">
+          <span className="self-center text-xl font-medium whitespace-nowrap dark:text-white">
+             Juan Bianco
+          </span>
+        </a>
+        <div className="flex md:order-2">
+          <button
+            type="button"
+            className=" hover:text-white lg:text-normal ml-3 sm:ml-6 bg-transparent transition duration-150 ease-in-out   rounded-xl border border-white text-white px-4 sm:px-4 py-3"
+          >
+            Comenzar
+          </button>
+          <button
+            data-collapse-toggle="mobile-menu-4"
+            type="button"
+            className="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            aria-controls="mobile-menu-4"
+            aria-expanded="false"
+          >
+            <span className="sr-only">Open main menu</span>
+            <svg
+              className="w-6 h-6"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+            <svg
+              className="hidden w-6 h-6"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
+        </div>
+        <div
+          className="hidden justify-between items-center w-full md:flex md:w-auto md:order-1"
+          id="mobile-menu-4"
+        >
+          <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+            <li>
+              <a
+                href="#"
+                className="block py-2 pr-4 pl-3 text-white text-base rounded md:bg-transparent f md:p-0"
+                aria-current="page"
+              >
+                Inicio
+              </a>
+            </li>
+            <li>
+              <a
+                href="#about"
+                className="block py-2 pr-4 pl-3 text-white border-b text-base hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0"
+              >
+                Sobre mí
+              </a>
+            </li>
+            <li>
+              <a
+                href="#projects"
+                className="block py-2 pr-4 pl-3 text-white border-b text-base hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0"
+              >
+                Proyectos
+              </a>
+            </li>
+            <li>
+              <a
+                href="#contact"
+                className="block py-2 pr-4 pl-3 text-white border-b text-base hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0"
+              >
+                Contacto
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
-
-      <div>
-        <Container className="container-home">
-          <div>
-            <h5 className="title-name">Juan Ignacio Bianco</h5>
-            <h1 className="title">Web Developer</h1>
-            <p className="parrafo">
-              soy un parrafosoy un parrafosoy un parrafosoy un parrafosoy un
-              parrafosoy un parrafo soy un parrafosoy un parrafosoy un
-              parrafosoy un parrafosoy un
-            </p>
-            <ColorButton variant="contained" className="btn-primary" href="#about">
-              Comenzar
-            </ColorButton>
-          </div>
-          <div className="max">
-            <div className="rectangle">
-              <div className="rectangle-img">
-                <img className="img" src={Imagen} />
-                <img className="img2" src={Imagen2} />
-              </div>
-            </div>
-          </div>
-        </Container>
-      </div>
-
-      <section id="about">
-          <About />
-      </section>
-
-      <section id="skills">
-        <Skills />
-      </section>
-
-      <section id="portfolio">
-        <Portfolio />
-      </section>
-
-      <section id="contact">
-        <Contact />
-      </section>
-    </div>
+    </nav>
   );
 };
 
