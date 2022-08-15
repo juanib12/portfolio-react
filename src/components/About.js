@@ -8,44 +8,44 @@ import mysql from "../images/mysql.png";
 import gh from "../images/gh.png";
 import tailwind from "../images/tailwind.png";
 import react from "../images/reactlogo.png";
-import mongo from "../images/mongdb.png";
+import mongo from "../images/mongodb.png";
+import AboutImage from "../images/aboutimage.svg";
 
 const About = () => {
   return (
-    <div className="relative" id="about">
+    <div className="relative -top-[20px] bg-base-200 bg-opacity-40" id="about">
       <div class="py-16 bg-transparent">
-        <div class="m-auto text-center md:w-8/12 lg:w-6/12">
-          <h2 class="text-2xl text-white font-bold md:text-4xl">Sobre mí</h2>
-        </div>
         <div class="container px-6 text-gray-600 md:px-12 xl:px-6">
-          <div class="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
-            <div class="md:5/12 lg:w-5/12">
+          <div class="m-auto text-center md:w-8/12 lg:w-6/12 bg-sky-400 bg-opacity-10 p-4 rounded-[7px]">
+            <h2 class="text-2xl text-white font-bold md:text-4xl">Sobre mí</h2>
+          </div>
+          <div class="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12 top-[100px] relative mb-[100px]">
+            <div class="md:5/12 lg:w-[600px] relative left-[150px]">
               <img
-                src={Developer}
+                src={AboutImage}
                 alt="image"
                 loading="lazy"
-                width=""
-                height=""
+                width="250px"
+                className="drop-shadow-2xl"
               />
             </div>
-            <div class="md:7/12 lg:w-6/12">
-              <h2 class="text-2xl text-purple-900 font-bold md:text-4xl">
+            <div class="md:7/12 lg:w-6/12 bg-gray-800 p-12 rounded-[20px] border-none shadow-lg">
+              <h2 class="text-2xl text-sky-400 font-bold md:text-4xl">
                 ¿Quién soy?
               </h2>
-              <p class="mt-6 text-gray-600">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum
-                omnis voluptatem accusantium nemo perspiciatis delectus atque
-                autem! Voluptatum tenetur beatae unde aperiam, repellat expedita
-                consequatur! Officiis id consequatur atque doloremque!
+              <p class="mt-6 text-gray-500">
+                Soy argentino, tengo 20 años y estudio en la Universidad
+                Tecnológica Nacional la Tecnicatura Universitaria en
+                Programación, actualmente estoy en mi ultimo año cursando.
+                Realice un curso de React.JS en Udemy, y estudie de manera
+                autodidacta sobre desarrollo web tanto frontend como backend.
               </p>
-              <p class="mt-4 text-gray-600">
-                Nobis minus voluptatibus pariatur dignissimos libero quaerat
-                iure expedita at? Asperiores nemo possimus nesciunt dicta veniam
-                aspernatur quam mollitia.
+              <p class="mt-4 text-gray-500">
+                Además de estudiar y informarme sobre el mundo IT, me gusta
+                escuchar y crear música mientras disfruto de un café ☕.
               </p>
             </div>
           </div>
-          
         </div>
       </div>
 
@@ -58,16 +58,16 @@ const About = () => {
             </h2>
           </div>
           <div class="m-auto mt-16 ">
-            <div class="flex flex-wrap justify-center gap-6">
-              <div class="group py-2 px-4 border border-opacity-10 rounded-xl bg-white bg-opacity-5 hover:bg-opacity-10">
+            <div class="flex flex-wrap justify-center gap-6 w-auto">
+              <div class="group py-2 px-4 border border-opacity-10 rounded-xl hover:bg-gray-800">
                 <img
                   src={JS}
-                  class="contrast-50 transition group-hover:contrast-100"
+                  class="transition group-hover:contrast-100"
                   loading="lazy"
                   alt="logo airbnb"
                 />
               </div>
-              <div class="group py-2 px-4 border border-opacity-10 rounded-xl bg-white bg-opacity-5 hover:bg-opacity-10">
+              <div class="group py-2 px-4 border border-opacity-10 rounded-xl hover:bg-gray-800">
                 <img
                   src={html}
                   class="transition group-hover:contrast-100"
@@ -75,7 +75,7 @@ const About = () => {
                   alt="logo microsoft"
                 />
               </div>
-              <div class="group py-2 px-4 border border-opacity-10 rounded-xl bg-white bg-opacity-5 hover:bg-opacity-10">
+              <div class="group py-2 px-4 border border-opacity-10 rounded-xl  hover:bg-gray-800">
                 <img
                   src={css}
                   class=" transition group-hover:contrast-100"
@@ -83,7 +83,7 @@ const About = () => {
                   alt="logo ge"
                 />
               </div>
-              <div class="group py-2 px-4 border border-opacity-10 rounded-xl bg-white bg-opacity-5 hover:bg-opacity-10">
+              <div class="group py-2 px-4 border border-opacity-10 rounded-xl hover:bg-gray-800">
                 <img
                   src={node}
                   class=" transition group-hover:contrast-100"
@@ -91,7 +91,7 @@ const About = () => {
                   alt="logo bissell"
                 />
               </div>
-              <div class="group py-2 px-4 border border-opacity-10 rounded-xl bg-white bg-opacity-5 hover:bg-opacity-10">
+              <div class="group py-2 px-4 border border-opacity-10 rounded-xl hover:bg-gray-800">
                 <img
                   src={mysql}
                   class=" transition group-hover:contrast-100"
@@ -99,7 +99,7 @@ const About = () => {
                   alt="logo bissell"
                 />
               </div>
-              <div class="group py-2 px-4 border border-opacity-10 rounded-xl bg-white bg-opacity-5 hover:bg-opacity-10">
+              <div class="group py-2 px-4 border border-opacity-10 rounded-xl hover:bg-gray-800">
                 <img
                   src={gh}
                   class=" transition group-hover:contrast-100"
@@ -107,7 +107,7 @@ const About = () => {
                   alt="logo automatic"
                 />
               </div>
-              <div class="group py-2 px-4 border border-opacity-10 rounded-xl bg-white bg-opacity-5 hover:bg-opacity-10">
+              <div class="group py-2 px-4 border border-opacity-10 rounded-xl hover:bg-gray-800">
                 <img
                   src={tailwind}
                   class=" transition group-hover:contrast-100"
@@ -115,7 +115,7 @@ const About = () => {
                   alt="logo automatic"
                 />
               </div>
-              <div class="group py-2 px-4 border border-opacity-10 rounded-xl bg-white bg-opacity-5 hover:bg-opacity-10">
+              <div class="group py-2 px-4 border border-opacity-10 rounded-xl  hover:bg-gray-800">
                 <img
                   src={react}
                   class=" transition group-hover:contrast-100"
@@ -123,7 +123,7 @@ const About = () => {
                   alt="logo automatic"
                 />
               </div>
-              <div class="group py-2 px-4 border border-opacity-10 rounded-xl bg-white bg-opacity-5 hover:bg-opacity-10">
+              <div class="group py-2 px-4 border border-opacity-10 rounded-xl  hover:bg-gray-800">
                 <img
                   src={mongo}
                   class=" transition group-hover:contrast-100"
@@ -133,7 +133,13 @@ const About = () => {
               </div>
             </div>
           </div>
+          <div class="m-auto text-center bg-gray-800 md:w-8/12 lg:w-6/12 p-4 rounded-[7px] relative top-[50px]">
+            <p class="text-lg text-gray-300 italic">Además de estas tecnologías tambien he aprendido y utilizado
+            <span className="text-sky-400"> C# - C++ - C - .NET Framework - .NET Core - SQL Server.</span>
+            </p>
+          </div>
         </div>
+
         <div
           aria-hidden="true"
           class="absolute h-full inset-0 flex items-center"

@@ -2,7 +2,7 @@ import { useState } from "react";
 
 const NavBar = () => {
   return (
-    <nav className="sm:px-28 py-2.5 top-0 border-[#404040] border-b-[1px] relative">
+    <nav className="sm:px-28 py-2.5 top-0 sticky z-[100] bg-[#0F1729]">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
         <a href="#" className="flex items-center">
           <span className="self-center text-xl font-medium whitespace-nowrap dark:text-white">

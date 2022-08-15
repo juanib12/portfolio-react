@@ -3,7 +3,7 @@ import Ikbal from "../images/Ikbal.png";
 
 const Home = () => {
   return (
-    <div className="w-full px-6 mt-[-40px]">
+    <div className="w-full px-6 mt-[-40px] ">
       <div className="mt-8 relative rounded-lg bg-transparent container mx-auto flex flex-col items-center pt-12 sm:pt-24 pb-24 sm:pb-32 md:pb-48 lg:pb-56 xl:pb-64">
         <div className="w-11/12 sm:w-2/3 mb-5 sm:mb-2">
           <h1 className="text-2xl text-center text-white font-medium leading-tight">

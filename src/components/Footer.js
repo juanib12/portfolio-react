@@ -16,27 +16,75 @@ const Footer = () => {
         <p>
           Juan Ignacio Bianco
           <br />
-          
         </p>
       </div>
       <div>
-        <span className="footer-title">Projects</span>
-        <a className="link link-hover">Animadle</a>
-        <a className="link link-hover">Otro</a>
-        <a className="link link-hover">Otro 2</a>
-        <a className="link link-hover">Otro 3</a>
+        <span className="footer-title">Proyectos</span>
+        <a
+          className="link link-hover"
+          href="https://animadle.vercel.app/"
+          target="__blank"
+        >
+          Animadle
+        </a>
+        <a
+          className="link link-hover"
+          href="https://toodnotes.vercel.app/"
+          target="__blank"
+        >
+          Tood notes
+        </a>
+        <a className="link link-hover">Bitcoin</a>
+        <a className="link link-hover">Movie app</a>
+        <a className="link link-hover">Rick And Morty API</a>
+        <a
+          className="link link-hover"
+          href="https://techfix-demo.vercel.app/"
+          target="__blank"
+        >
+          Techfix
+        </a>
       </div>
       <div>
-        <span className="footer-title">ABOUT ME</span>
-        <a className="link link-hover">Download CV</a>
-        <a className="link link-hover">Contact</a>
+        <span className="footer-title">Sobre mí</span>
+        <a
+          className="link link-hover"
+          href="https://drive.google.com/file/d/1vHC4mm_HtAmk4N5x-RBBOa7nZtlX-HTH/view?usp=sharing"
+          target="__blank"
+        >
+          Descargar CV
+        </a>
+        <a className="link link-hover" href="#contact">
+          Contacto
+        </a>
         <a className="link link-hover">Presiona aquí 🤔</a>
       </div>
       <div>
         <span className="footer-title">SOCIALS</span>
-        <a className="link link-hover">Github</a>
-        <a className="link link-hover">Twitter</a>
-        <a className="link link-hover">Instagram</a>
+        <div className="flex flex-row items-center space-x-2">
+          <i class="bx bxl-github text-xl"></i>
+          <a
+            className="link link-hover"
+            href="https://github.com/juanib12"
+            target="__blank"
+          >
+            Github
+          </a>
+        </div>
+        <div className="flex flex-row items-center space-x-2">
+          <i class="bx bxl-instagram-alt text-xl"></i>
+          <a
+            className="link link-hover"
+            href="https://www.instagram.com/bianco_juani/"
+            target="__blank"
+          >
+            Instagram
+          </a>
+        </div>
+        <div className="flex flex-row items-center space-x-2">
+        <i class='bx bxl-gmail text-xl' ></i>
+        <p>bjuan.ignacio11@gmail.com</p>
+        </div>
       </div>
     </footer>
   );
