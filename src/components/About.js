@@ -13,7 +13,7 @@ import AboutImage from "../images/aboutimage.svg";
 
 const About = () => {
   return (
-    <div className="relative -top-[20px] bg-base-200 bg-opacity-40" id="about">
+    <div className="relative -top-[20px] bg-base-300 bg-opacity-40" id="about">
       <div class="py-16 bg-transparent">
         <div class="container px-6 text-gray-600 md:px-12 xl:px-6">
           <div class="m-auto text-center md:w-8/12 lg:w-6/12 bg-sky-400 bg-opacity-10 p-4 rounded-[7px]">

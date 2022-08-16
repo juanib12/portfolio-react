@@ -2,7 +2,7 @@ import { useState } from "react";
 
 const NavBar = () => {
   return (
-    <nav className="sm:px-28 py-2.5 top-0 sticky z-[100] bg-[#0F1729] opacity-[98%]">
+    <nav className="sm:px-28 py-2.5 top-0 sticky z-[100] bg-[#0F1729] opacity-[97%]">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
         <a href="#" className="flex items-center">
           <span className="self-center text-xl font-medium whitespace-nowrap dark:text-white">
@@ -10,12 +10,14 @@ const NavBar = () => {
           </span>
         </a>
         <div className="flex md:order-2">
+          <a href="#about">
           <button
             type="button"
-            className=" hover:text-white lg:text-normal ml-3 sm:ml-6 bg-transparent transition duration-150 ease-in-out   rounded-xl border border-white text-white px-4 sm:px-4 py-3"
+            className=" hover:text-black hover:bg-white lg:text-normal ml-3 sm:ml-6 bg-transparent transition duration-150 ease-in-out   rounded-xl border border-white text-white px-4 sm:px-4 py-3"
           >
             Comenzar
           </button>
+          </a>
           <button
             data-collapse-toggle="mobile-menu-4"
             type="button"
@@ -58,7 +60,7 @@ const NavBar = () => {
             <li>
               <a
                 href="#"
-                className="block py-2 pr-4 pl-3 text-white text-base rounded md:bg-transparent f md:p-0"
+                className="block py-2 pr-4 pl-3 text-white text-base rounded md:bg-transparent f md:p-0 hover:text-gray-400"
                 aria-current="page"
               >
                 Inicio
@@ -67,7 +69,7 @@ const NavBar = () => {
             <li>
               <a
                 href="#about"
-                className="block py-2 pr-4 pl-3 text-white border-b text-base hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0"
+                className="hover:text-gray-400 block py-2 pr-4 pl-3 text-white border-b text-base hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0"
               >
                 Sobre mí
               </a>
@@ -75,7 +77,7 @@ const NavBar = () => {
             <li>
               <a
                 href="#projects"
-                className="block py-2 pr-4 pl-3 text-white border-b text-base hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0"
+                className="hover:text-gray-400 block py-2 pr-4 pl-3 text-white border-b text-base hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0"
               >
                 Proyectos
               </a>
@@ -83,7 +85,7 @@ const NavBar = () => {
             <li>
               <a
                 href="#contact"
-                className="block py-2 pr-4 pl-3 text-white border-b text-base hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0"
+                className="hover:text-gray-400 block py-2 pr-4 pl-3 text-white border-b text-base hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0"
               >
                 Contacto
               </a>
