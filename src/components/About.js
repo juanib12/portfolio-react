@@ -17,7 +17,7 @@ const About = () => {
       <div class="py-16 bg-transparent">
         <div class="container px-6 text-gray-600 md:px-12 xl:px-6">
           <div class="m-auto text-center md:w-8/12 lg:w-6/12 bg-sky-400 bg-opacity-10 p-4 rounded-[7px]">
-            <h2 class="text-2xl text-white font-bold md:text-4xl">Sobre mí</h2>
+            <h2 class="text-2xl text-white font-bold md:text-4xl">Sobre mí 🧍‍♂️</h2>
           </div>
           <div class="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12 top-[100px] relative mb-[100px]">
             <div class="md:5/12 lg:w-[600px] relative left-[150px]">

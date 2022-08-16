@@ -8,6 +8,7 @@ import About from "./components/About";
 const App = () => {
   return (
     <div>
+      
       <NavBar />
       <Home />
       <About />

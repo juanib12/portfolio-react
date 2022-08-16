@@ -14,22 +14,22 @@ const Projects = () => {
   return (
     <div className="container top-36 relative mb-36" id="projects">
       <div class="m-auto text-center md:w-8/12 lg:w-6/12 mb-20 bg-blue-400 bg-opacity-10 p-4 rounded-[7px]">
-        <h2 class="text-2xl text-white font-bold md:text-4xl">Proyectos</h2>
+        <h2 class="text-2xl text-white font-bold md:text-4xl">Proyectos ✅</h2>
       </div>
       <div className="py-16 bg-transparent relative top-[-50px]">
         <div className="container m-auto px-6 text-gray-500 md:px-12 xl:px-12">
           <div className="mx-auto grid gap-6 md:w-3/4 lg:w-full lg:grid-cols-3">
-            <div class="card bg-base-100 shadow-xl image-full">
+            <div class="card bg-base-100 shadow-xl image-full ">
               <figure>
                 <img src={Animadle} alt="Shoes" />
               </figure>
-              <div class="card-body">
-                <h2 class="card-title">ANIMADLE</h2>
-                <p>
+              <div class="card-body flex flex-col items-center">
+                <h2 class="card-title text-2xl">ANIMADLE</h2>
+                <p className="font-normal text-gray-300">
                   Un juego donde bla bla bla bla bla bla bla bla bla bla bla bla
                   bla bla bla bla bla
                 </p>
-                <p className="relative -top-16 w-40 max-h-8 pl-4 pt-1 rounded-lg text-white bg-black">Stack tecnológico</p>
+                <p className="relative -top-16 w-40 max-h-8 pl-4 pt-1 rounded-lg text-white bg-black/70 ">Stack tecnológico</p>
                 <div className="relative flex flex-row space-x-2 items-center">
                   <img
                     src={ReactChiquito}
@@ -50,13 +50,13 @@ const Projects = () => {
               <figure>
                 <img src={Tood} alt="Shoes" />
               </figure>
-              <div class="card-body">
-                <h2 class="card-title">TOOD NOTES</h2>
-                <p>
+              <div class="card-body flex flex-col items-center">
+                <h2 class="card-title text-2xl">TOOD NOTES</h2>
+                <p className="font-normal text-gray-300">
                   Un juego donde bla bla bla bla bla bla bla bla bla bla bla bla
                   bla bla bla bla bla
                 </p>
-                <p className="relative -top-16 w-40 max-h-8 pl-4 pt-1 rounded-lg text-white bg-black">Stack tecnológico</p>
+                <p className="relative -top-16 w-40 max-h-8 pl-4 pt-1 rounded-lg text-white bg-black/70">Stack tecnológico</p>
                 <div className="relative flex flex-row space-x-2 items-center">
                   <img
                     src={ReactChiquito}
@@ -78,13 +78,13 @@ const Projects = () => {
               <figure>
                 <img src={Animadle} alt="Shoes" />
               </figure>
-              <div class="card-body">
-                <h2 class="card-title">BITCOIN</h2>
-                <p>
+              <div class="card-body flex flex-col items-center">
+                <h2 class="card-title text-2xl">BITCOIN</h2>
+                <p className="font-normal text-gray-300">
                   Un juego donde bla bla bla bla bla bla bla bla bla bla bla bla
                   bla bla bla bla bla
                 </p>
-                <p className="relative -top-16 w-40 max-h-8 pl-4 pt-1 rounded-lg text-white bg-black">Stack tecnológico</p>
+                <p className="relative -top-16 w-40 max-h-8 pl-4 pt-1 rounded-lg text-white bg-black/70">Stack tecnológico</p>
                 <div className="relative flex flex-row space-x-2 items-center">
                   <img
                     src={ReactChiquito}
@@ -103,13 +103,13 @@ const Projects = () => {
               <figure>
                 <img src={Movie} alt="Shoes" />
               </figure>
-              <div class="card-body">
-                <h2 class="card-title">MOVIE APP</h2>
-                <p>
+              <div class="card-body flex flex-col items-center">
+                <h2 class="card-title text-2xl">MOVIE APP</h2>
+                <p className="font-normal text-gray-300">
                   Un juego donde bla bla bla bla bla bla bla bla bla bla bla bla
                   bla bla bla bla bla
                 </p>
-                <p className="relative -top-16 w-40 max-h-8 pl-4 pt-1 rounded-lg text-white bg-black">Stack tecnológico</p>
+                <p className="relative -top-16 w-40 max-h-8 pl-4 pt-1 rounded-lg text-white bg-black/70">Stack tecnológico</p>
                 <div className="relative flex flex-row space-x-2 items-center">
                   <img
                     src={ReactChiquito}
@@ -128,13 +128,13 @@ const Projects = () => {
               <figure>
                 <img src={Rick} alt="Shoes" />
               </figure>
-              <div class="card-body">
-                <h2 class="card-title">RICK AND MORTY API</h2>
-                <p>
+              <div class="card-body flex flex-col items-center">
+                <h2 class="card-title text-2xl">RICK AND MORTY API</h2>
+                <p className="font-normal text-gray-300">
                   Un juego donde bla bla bla bla bla bla bla bla bla bla bla bla
                   bla bla bla bla bla
                 </p>
-                <p className="relative -top-16 w-40 max-h-8 pl-4 pt-1 rounded-lg text-white bg-black">Stack tecnológico</p>
+                <p className="relative -top-16 w-40 max-h-8 pl-4 pt-1 rounded-lg text-white bg-black/70">Stack tecnológico</p>
                 <div className="relative flex flex-row space-x-2 items-center">
                   <img
                     src={ReactChiquito}
@@ -154,14 +154,14 @@ const Projects = () => {
               <figure>
                 <img src={Techfix} alt="Shoes" />
               </figure>
-              <div class="card-body">
-                <h2 class="card-title">TECHFIX</h2>
-                <p>
+              <div class="card-body flex flex-col items-center">
+                <h2 class="card-title text-2xl">TECHFIX</h2>
+                <p className="font-normal text-gray-300">
                   Un juego donde bla bla bla bla bla bla bla bla bla bla bla bla
                   bla bla bla bla bla
                 </p>
-                <p className="relative -top-16 w-40 max-h-8 pl-4 pt-1 rounded-lg text-white bg-black">Stack tecnológico</p>
-                <div className="relative flex flex-row space-x-2 items-center">
+                <p className="relative -top-16 w-40 max-h-8 pl-4 pt-1 rounded-lg text-white bg-black/70">Stack tecnológico</p>
+                <div className="relative flex flex-row space-x-2 items-center ">
                   <img
                     src={ReactChiquito}
                     width="60px"

@@ -1,22 +1,24 @@
 import { useState } from "react";
+import JB from "../images/jb.png";
 
 const NavBar = () => {
   return (
     <nav className="sm:px-28 py-2.5 top-0 sticky z-[100] bg-[#0F1729] opacity-[97%]">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
-        <a href="#" className="flex items-center">
+        <a href="#" className="flex items-center  space-x-2">
+          <img src={JB} width="40px" className="rounded-xl" />
           <span className="self-center text-xl font-medium whitespace-nowrap dark:text-white">
-             Juan Bianco
+            Juan Bianco
           </span>
         </a>
         <div className="flex md:order-2">
           <a href="#about">
-          <button
-            type="button"
-            className=" hover:text-black hover:bg-white lg:text-normal ml-3 sm:ml-6 bg-transparent transition duration-150 ease-in-out   rounded-xl border border-white text-white px-4 sm:px-4 py-3"
-          >
-            Comenzar
-          </button>
+            <button
+              type="button"
+              className=" hover:text-black hover:bg-white lg:text-normal ml-3 sm:ml-6 bg-transparent transition duration-150 ease-in-out   rounded-xl border border-white text-white px-4 sm:px-4 py-3"
+            >
+              Comenzar
+            </button>
           </a>
           <button
             data-collapse-toggle="mobile-menu-4"

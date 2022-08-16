@@ -57,7 +57,13 @@ const Footer = () => {
         <a className="link link-hover" href="#contact">
           Contacto
         </a>
-        <a className="link link-hover">Presiona aquí 🤔</a>
+        <a
+          className="link link-hover"
+          href="https://eljueguitodelaserpiente.vercel.app/"
+          target="__blank"
+        >
+          Presiona aquí 🤔
+        </a>
       </div>
       <div>
         <span className="footer-title">SOCIALS</span>
@@ -82,8 +88,8 @@ const Footer = () => {
           </a>
         </div>
         <div className="flex flex-row items-center space-x-2">
-        <i class='bx bxl-gmail text-xl' ></i>
-        <p>bjuan.ignacio11@gmail.com</p>
+          <i class="bx bxl-gmail text-xl"></i>
+          <p>bjuan.ignacio11@gmail.com</p>
         </div>
       </div>
     </footer>

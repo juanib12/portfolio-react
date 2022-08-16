@@ -1,8 +1,10 @@
+
+
 const Contact = () => {
   return (
-    <div id="contact" className="mb-56 relative top-[50px] ">
+    <div id="contact" className="mb-56 relative top-[50px]">
         <div class="m-auto text-center md:w-8/12 lg:w-6/12 bg-sky-400 bg-opacity-10 p-4 rounded-[7px]">
-          <h2 class="text-2xl text-white font-bold md:text-4xl">Contactame</h2>
+          <h2 class="text-2xl text-white font-bold md:text-4xl">Contactame 📩</h2>
         </div>
       <div class="max-w-screen-xl mt-24 px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto bg-gray-100 text-gray-900 rounded-lg shadow-lg">
         <div class="flex flex-col justify-between">

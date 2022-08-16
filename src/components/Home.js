@@ -17,7 +17,7 @@ const Home = () => {
         </div>
         <div className="w-11/12 sm:w-2/3 mb-5 sm:mb-10">
           <h1 className="text-lg text-center text-slate-400 font-normal leading-tight">
-            Full Stack Developer
+            Full Stack Developer 💻
           </h1>
         </div>
         <div className="flex justify-center items-center z-50">
