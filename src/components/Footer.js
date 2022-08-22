@@ -62,7 +62,7 @@ const Footer = () => {
           href="https://eljueguitodelaserpiente.vercel.app/"
           target="__blank"
         >
-          Presiona aquí 🤔
+          Presiona aquí 😉
         </a>
       </div>
       <div>

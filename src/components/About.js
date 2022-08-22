@@ -1,5 +1,4 @@
-import Developer from "../images/developer.png";
-import Customer from "../images/customer.png";
+
 import JS from "../images/javascript.png";
 import html from "../images/html.png";
 import css from "../images/css.png";
@@ -9,7 +8,7 @@ import gh from "../images/gh.png";
 import tailwind from "../images/tailwind.png";
 import react from "../images/reactlogo.png";
 import mongo from "../images/mongodb.png";
-import AboutImage from "../images/aboutimage.svg";
+import AboutImage from "../images/aboutme.png";
 
 const About = () => {
   return (
@@ -25,7 +24,7 @@ const About = () => {
                 src={AboutImage}
                 alt="image"
                 loading="lazy"
-                width="250px"
+                width="300px"
                 className="drop-shadow-2xl"
               />
             </div>
@@ -34,14 +33,13 @@ const About = () => {
                 ¿Quién soy?
               </h2>
               <p class="mt-6 text-gray-500">
-                Soy argentino, tengo 20 años y estudio en la Universidad
-                Tecnológica Nacional la Tecnicatura Universitaria en
-                Programación, actualmente estoy en mi ultimo año cursando.
-                Realice un curso de React.JS en Udemy, y estudie de manera
-                autodidacta sobre desarrollo web tanto frontend como backend.
+                Mi nombre es Juan Ignacio Bianco, tengo 20 años y actualmente me encuentro en mi ultimo año
+                en la Universidad Tecnológica Nacional, la carrera Tecnicatura Universitaria en Programación. Además
+                estoy formandome de manera autodidacta, sobre todo lo relacionado al desarrollo web tanto frontend como backend y
+                he realizado varios cursos sobre React.JS y Node.JS en la plataforma Udemy.
               </p>
               <p class="mt-4 text-gray-500">
-                Además de estudiar y informarme sobre el mundo IT, me gusta
+                Además de estudiar e informarme sobre el mundo IT, me gusta
                 escuchar y crear música mientras disfruto de un café ☕.
               </p>
             </div>
@@ -134,7 +132,7 @@ const About = () => {
             </div>
           </div>
           <div class="m-auto text-center bg-gray-800 md:w-8/12 lg:w-6/12 p-4 rounded-[7px] relative top-[50px]">
-            <p class="text-lg text-gray-300 italic">Además de estas tecnologías tambien he aprendido y utilizado
+            <p class="text-lg text-gray-300 italic">Además de estas tecnologías también he aprendido y utilizado
             <span className="text-sky-400"> C# - C++ - C - .NET Framework - .NET Core - SQL Server.</span>
             </p>
           </div>

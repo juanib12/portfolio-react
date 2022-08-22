@@ -26,17 +26,16 @@ const Projects = () => {
               <div class="card-body flex flex-col items-center">
                 <h2 class="card-title text-2xl">ANIMADLE</h2>
                 <p className="font-normal text-gray-300">
-                  Un juego donde bla bla bla bla bla bla bla bla bla bla bla bla
-                  bla bla bla bla bla
+                  Un juego donde deberás adivinar al animal, éste esta compuesto por 5 letras y tienes 6 intentos para adivinarlo!
                 </p>
-                <p className="relative -top-16 w-40 max-h-8 pl-4 pt-1 rounded-lg text-white bg-black/70 ">Stack tecnológico</p>
+                <p className="relative -top-10 w-40 max-h-8 pl-4 pt-1 rounded-lg text-white bg-black/70 ">Stack tecnológico</p>
                 <div className="relative flex flex-row space-x-2 items-center">
                   <img
                     src={ReactChiquito}
                     width="60px"
-                    className="relative -top-16"
+                    className="relative -top-10"
                   />
-                  <img src={Mui} width="60px" className="relative -top-16" />
+                  <img src={Mui} width="60px" className="relative -top-10" />
                 </div>
 
                 <div class="card-actions justify-end">
@@ -53,18 +52,18 @@ const Projects = () => {
               <div class="card-body flex flex-col items-center">
                 <h2 class="card-title text-2xl">TOOD NOTES</h2>
                 <p className="font-normal text-gray-300">
-                  Un juego donde bla bla bla bla bla bla bla bla bla bla bla bla
-                  bla bla bla bla bla
+                  Una app donde podrás añadir notas o tareas, también tendrás la posibilidad de editar, borrar 
+                  y marcar como completada las veces que quieras!
                 </p>
-                <p className="relative -top-16 w-40 max-h-8 pl-4 pt-1 rounded-lg text-white bg-black/70">Stack tecnológico</p>
+                <p className="relative -top-8 w-40 max-h-8 pl-4 pt-1 rounded-lg text-white bg-black/70">Stack tecnológico</p>
                 <div className="relative flex flex-row space-x-2 items-center">
                   <img
                     src={ReactChiquito}
                     width="60px"
-                    className="relative -top-16"
+                    className="relative -top-8"
                   />
-                  <img src={Mui} width="60px" className="relative -top-16" />
-                  <img src={Firebase} width="60px" className="relative -top-16" />
+                  <img src={Mui} width="60px" className="relative -top-8" />
+                  <img src={Firebase} width="60px" className="relative -top-8" />
                 </div>
 
                 <div class="card-actions justify-end">
@@ -76,13 +75,12 @@ const Projects = () => {
             </div>
             <div class="card bg-base-100 shadow-xl image-full">
               <figure>
-                <img src={Animadle} alt="Shoes" />
+                {/* <img src={null} alt="Shoes" /> */}
               </figure>
               <div class="card-body flex flex-col items-center">
                 <h2 class="card-title text-2xl">BITCOIN</h2>
                 <p className="font-normal text-gray-300">
-                  Un juego donde bla bla bla bla bla bla bla bla bla bla bla bla
-                  bla bla bla bla bla
+                  PRÓXIMAMENTE
                 </p>
                 <p className="relative -top-16 w-40 max-h-8 pl-4 pt-1 rounded-lg text-white bg-black/70">Stack tecnológico</p>
                 <div className="relative flex flex-row space-x-2 items-center">
@@ -95,7 +93,7 @@ const Projects = () => {
                 </div>
 
                 <div class="card-actions justify-end">
-                  <button class="btn btn-primary">Ver más</button>
+                  <button class="btn btn-disabled">Ver más</button>
                 </div>
               </div>
             </div>
@@ -106,8 +104,7 @@ const Projects = () => {
               <div class="card-body flex flex-col items-center">
                 <h2 class="card-title text-2xl">MOVIE APP</h2>
                 <p className="font-normal text-gray-300">
-                  Un juego donde bla bla bla bla bla bla bla bla bla bla bla bla
-                  bla bla bla bla bla
+                  PRÓXIMAMENTE
                 </p>
                 <p className="relative -top-16 w-40 max-h-8 pl-4 pt-1 rounded-lg text-white bg-black/70">Stack tecnológico</p>
                 <div className="relative flex flex-row space-x-2 items-center">
@@ -120,7 +117,7 @@ const Projects = () => {
                 </div>
 
                 <div class="card-actions justify-end">
-                  <button class="btn btn-primary">Ver más</button>
+                  <button class="btn btn-disabled">Ver más</button>
                 </div>
               </div>
             </div>
@@ -131,8 +128,7 @@ const Projects = () => {
               <div class="card-body flex flex-col items-center">
                 <h2 class="card-title text-2xl">RICK AND MORTY API</h2>
                 <p className="font-normal text-gray-300">
-                  Un juego donde bla bla bla bla bla bla bla bla bla bla bla bla
-                  bla bla bla bla bla
+                  PRÓXIMAMENTE
                 </p>
                 <p className="relative -top-16 w-40 max-h-8 pl-4 pt-1 rounded-lg text-white bg-black/70">Stack tecnológico</p>
                 <div className="relative flex flex-row space-x-2 items-center">
@@ -146,7 +142,7 @@ const Projects = () => {
                 </div>
 
                 <div class="card-actions justify-end">
-                  <button class="btn btn-primary">Ver más</button>
+                  <button class="btn btn-disabled">Ver más</button>
                 </div>
               </div>
             </div>
@@ -157,24 +153,24 @@ const Projects = () => {
               <div class="card-body flex flex-col items-center">
                 <h2 class="card-title text-2xl">TECHFIX</h2>
                 <p className="font-normal text-gray-300">
-                  Un juego donde bla bla bla bla bla bla bla bla bla bla bla bla
-                  bla bla bla bla bla
+                  Esta app es una demo de un sistema de servicio técnico, que cuenta
+                  con diferentes modulos para ingresar, editar y borrar datos. Entre otras muchas cosas!.
                 </p>
-                <p className="relative -top-16 w-40 max-h-8 pl-4 pt-1 rounded-lg text-white bg-black/70">Stack tecnológico</p>
+                <p className="relative -top-10 w-40 max-h-8 pl-4 pt-1 rounded-lg text-white bg-black/70">Stack tecnológico</p>
                 <div className="relative flex flex-row space-x-2 items-center ">
                   <img
                     src={ReactChiquito}
                     width="60px"
-                    className="relative -top-16"
+                    className="relative -top-10"
                   />
-                  <img src={Mui} width="60px" className="relative -top-16" />
-                  <img src={Node} width="60px" className="relative -top-16" />
-                  <img src={Mongo} width="60px" className="relative -top-16" />
+                  <img src={Mui} width="60px" className="relative -top-10" />
+                  <img src={Node} width="60px" className="relative -top-10" />
+                  <img src={Mongo} width="60px" className="relative -top-10" />
                 </div>
 
                 <div class="card-actions justify-end">
                   <a href="https://techfix-demo.vercel.app/" target="__blank">
-                  <button class="btn btn-primary">Ver más</button>
+                  <button class="btn btn-primary ">Ver más</button>
                   </a>
                 </div>
               </div>

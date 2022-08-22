@@ -1,20 +1,51 @@
+import { useRef, useState } from "react";
+// import emailjs from "emailjs-com";
 
+// const sgMail = require('@sendgrid/mail')
+
+// sgMail.setApiKey(
+//   "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"
+// );
 
 const Contact = () => {
+  // const form = useRef();
+  // const [names, setNames] = useState("");
+  // const [email, setEmail] = useState("");
+  // const [message, setMessage] = useState("");
+
+  // const onComplete = () => {
+  //   const message = {
+  //     to: "bjuan.ignacio11@gmail.com",
+  //     from: email,
+  //     subject: "Email",
+  //     html: `
+  //     <p><strong>:</strong>${names}</p>
+  //     <p><strong>:</strong>${message}</p>
+  //     `,
+  //   };
+
+  //   sgMail
+  //     .send(message)
+  //     .then(() => {
+  //       console.log("Email enviado!");
+  //     })
+  //     .catch((err) => console.log(err));
+  // };
+
+  
+
   return (
     <div id="contact" className="mb-56 relative top-[50px]">
-        <div class="m-auto text-center md:w-8/12 lg:w-6/12 bg-sky-400 bg-opacity-10 p-4 rounded-[7px]">
-          <h2 class="text-2xl text-white font-bold md:text-4xl">Contactame 📩</h2>
-        </div>
+      <div class="m-auto text-center md:w-8/12 lg:w-6/12 bg-sky-400 bg-opacity-10 p-4 rounded-[7px]">
+        <h2 class="text-2xl text-white font-bold md:text-4xl">Contactame 📩</h2>
+      </div>
       <div class="max-w-screen-xl mt-24 px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto bg-gray-100 text-gray-900 rounded-lg shadow-lg">
         <div class="flex flex-col justify-between">
           <div>
             <h2 class="text-4xl lg:text-5xl font-bold leading-tight">
               Charlemos sobre cualquier cosa!
             </h2>
-            <div class="text-gray-700 mt-8">
-              Podes contactarme aquí!
-            </div>
+            <div class="text-gray-700 mt-8">Podes contactarme aquí!</div>
           </div>
           <div class="mt-8 text-center">
             <svg
@@ -973,34 +1004,48 @@ const Contact = () => {
           </div>
         </div>
         <div class="">
-          <div>
-            <span class="uppercase text-sm text-gray-600 font-bold">
-              Nombre y apellido
-            </span>
-            <input
-              class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-              type="text"
-              placeholder=""
-            />
-          </div>
-          <div class="mt-8">
-            <span class="uppercase text-sm text-gray-600 font-bold">Email</span>
-            <input
-              class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-              type="text"
-            />
-          </div>
-          <div class="mt-8">
-            <span class="uppercase text-sm text-gray-600 font-bold">
-              Mensaje
-            </span>
-            <textarea class="w-full h-32 bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"></textarea>
-          </div>
-          <div class="mt-8">
-            <button class="uppercase text-sm font-bold tracking-wide bg-indigo-500 text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline">
-              Enviar mensaje
-            </button>
-          </div>
+          <form>
+            <div>
+              <span class="uppercase text-sm text-gray-600 font-bold">
+                Nombre y apellido
+              </span>
+              <input
+                class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                type="text"
+                placeholder=""
+                name="names"
+              />
+            </div>
+            <div class="mt-8">
+              <span class="uppercase text-sm text-gray-600 font-bold">
+                Email
+              </span>
+              <input
+                class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                type="text"
+                name="email"
+              />
+            </div>
+            <div class="mt-8">
+              <span class="uppercase text-sm text-gray-600 font-bold">
+                Mensaje
+              </span>
+              <textarea
+                name="message"
+                class="w-full h-32 bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+              ></textarea>
+            </div>
+            <div class="mt-8">
+              <button
+                type="submit"
+                value="Send"
+                htmlType="submit"
+                class="uppercase text-sm font-bold tracking-wide bg-indigo-500 text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline"
+              >
+                Enviar mensaje
+              </button>
+            </div>
+          </form>
         </div>
       </div>
     </div>

@@ -2422,6 +2422,12 @@ html {
 .top-\[-50px\] {
   top: -50px;
 }
+.-top-10 {
+  top: -2.5rem;
+}
+.-top-8 {
+  top: -2rem;
+}
 .-top-16 {
   top: -4rem;
 }
@@ -2704,9 +2710,8 @@ html {
   --tw-bg-opacity: 1;
   background-color: hsl(var(--b1) / var(--tw-bg-opacity));
 }
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+.bg-black\/70 {
+  background-color: rgb(0 0 0 / 0.7);
 }
 .bg-opacity-40 {
   --tw-bg-opacity: 0.4;
