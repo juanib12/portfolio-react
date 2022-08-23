@@ -19,13 +19,13 @@ const About = () => {
             <h2 class="text-2xl text-white font-bold md:text-4xl">Sobre mí 🧍‍♂️</h2>
           </div>
           <div class="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12 top-[100px] relative mb-[100px]">
-            <div class="md:5/12 lg:w-[600px] relative left-[150px]">
+            <div class=" lg:w-[600px] relative left-[150px]">
               <img
                 src={AboutImage}
                 alt="image"
                 loading="lazy"
                 width="300px"
-                className="drop-shadow-2xl"
+                className="drop-shadow-2xl celu:relative celu:ml-[-150px]"
               />
             </div>
             <div class="md:7/12 lg:w-6/12 bg-gray-800 p-12 rounded-[20px] border-none shadow-lg">

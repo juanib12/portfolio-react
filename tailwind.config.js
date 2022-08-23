@@ -5,6 +5,9 @@ module.exports = {
   ],
   darkMode: "className",
   theme: {
+    screens: {
+      'celu': '250px'
+    },
     extend: {
       colors: {
         primary: {
