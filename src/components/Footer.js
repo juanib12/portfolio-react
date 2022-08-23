@@ -67,17 +67,18 @@ const Footer = () => {
       </div>
       <div>
         <span className="footer-title">SOCIALS</span>
-        <div className="flex flex-row items-center space-x-2">
+        <div className="flex flex-row items-center space-x-2 hover:text-gray-600">
           <i class="bx bxl-github text-xl"></i>
           <a
-            className="link link-hover"
+            className="link link-hover "
             href="https://github.com/juanib12"
             target="__blank"
+
           >
             Github
           </a>
         </div>
-        <div className="flex flex-row items-center space-x-2">
+        <div className="flex flex-row items-center space-x-2 hover:text-[#833AB4]">
           <i class="bx bxl-instagram-alt text-xl"></i>
           <a
             className="link link-hover"
@@ -87,7 +88,17 @@ const Footer = () => {
             Instagram
           </a>
         </div>
-        <div className="flex flex-row items-center space-x-2">
+        <div className="flex flex-row items-center space-x-2 hover:text-[#0077b5]">
+          <i class="bx bxl-linkedin-square text-xl"></i>
+          <a
+            className="link link-hover"
+            href="https://www.linkedin.com/in/juanignaciobianco/"
+            target="__blank"
+          >
+            Linkedin
+          </a>
+        </div>
+        <div className="flex flex-row items-center space-x-2 hover:text-[#EA4335]">
           <i class="bx bxl-gmail text-xl"></i>
           <p>bjuan.ignacio11@gmail.com</p>
         </div>
