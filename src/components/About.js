@@ -25,7 +25,7 @@ const About = () => {
                 alt="image"
                 loading="lazy"
                 width="300px"
-                className="drop-shadow-2xl celu:relative celu:ml-[-150px]"
+                className="drop-shadow-2xl celu:relative celu:ml-[-150px] lg:relative lg:ml-[0px]"
               />
             </div>
             <div class="md:7/12 lg:w-6/12 bg-gray-800 p-12 rounded-[20px] border-none shadow-lg">

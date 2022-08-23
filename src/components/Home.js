@@ -37,7 +37,7 @@ const Home = () => {
         </div>
       </div>
       <div className="container flex justify-center relative top-[-200px] ">
-        <div className="relative w-[250px] bg-gradient-to-r from-[#48c6ef] to-[#6f86d6] rounded-t-[200px] rounded-b-[50px] shadow-sm celu:relative celu:top-[150px]">
+        <div className="relative w-[250px] bg-gradient-to-r from-[#48c6ef] to-[#6f86d6] rounded-t-[200px] rounded-b-[50px] lg:relative lg:top-[-0px] md:relative md:top-[-0px] shadow-sm celu:relative celu:top-[150px] ">
           <img
             src={Ikbal}
             alt="Sample Page"
